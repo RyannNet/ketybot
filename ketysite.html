@@ -1,0 +1,424 @@
+Não tem nenhuma neve atrás do .features-box
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Flow+Circular&family=Geist+Mono:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bot Kety - Administração Discord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Host Grotesk', sans-serif;
+            color: #f1f1f1;
+            background-color: #101214;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Navbar */
+        nav {
+            background-color: #000000;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ECF0F1;
+            font-weight: 500;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #3498DB;
+        }
+nav img{
+  margin-left: 10px;
+}
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(139deg, #A700E7, #E70046);
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .hero .btn {
+            background-color: #0039FF;
+            color: #fff;
+            padding: 10px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .hero .btn:hover {
+            background-color: #021165E6;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 60px 0;
+            background: linear-gradient(90deg, #000036, #10101D);
+        }
+        .feature-box {
+            text-align: center;
+            width: 30%;
+        }
+        .feature-box i {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+        .feature-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #ecf0f1;
+        }
+        .feature-box p {
+            font-size: 1rem;
+            color: #bdc3c7;
+        }
+        
+        /* Footer Section */
+        footer {
+            background-color: #141414;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature-box {
+                width: 80%;
+                margin-bottom: 30px;
+            }
+            .feature-box:hover {
+  width: 80%;
+  margin-bottom: 30px;
+            }
+            <style>
+    /* Botão Customizado */
+    .btn {
+        background-color: #3498db;  /* Cor do botão */
+        color: #fff;  /* Cor do texto do botão */
+        padding: 10px 30px;  /* Tamanho do botão */
+        font-size: 16px;  /* Tamanho da fonte */
+        border-radius: 5px;  /* Bordas arredondadas */
+        text-decoration: none;  /* Sem sublinhado */
+        display: inline-block;
+        transition: background-color 0.3s ease;  /* Efeito suave de transição */
+        text-align: center;
+    }
+
+    button  {
+        background-color: #000000;
+        color:#FAFAFF;
+        height:40px;
+        width:150px;
+        border:none;
+        border-radius:13px;
+        text-align: center;
+        margin: 4px;
+        font-family: Host Grotesk, sans-serif;
+        
+        
+    }
+.button a{
+ color: #FFFFFF;
+text-decoration: none;
+text-align: center;
+}
+/* Estilo para a neve */
+.snow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.snowflake .features{
+  position: absolute;
+  top: -10px;
+  background-color: #FF112C;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+/* Animação de carregamento */
+.loading-animation  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Cor da borda */
+    border-top: 8px solid #3498db; /* Cor da animação */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+code{
+  color:#22FA8E;
+}
+</style>
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+
+        <ul><img src="/771 Sem Título_20250118231259.png" height="20px" width="70px">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#features">Funcionalidades</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div>
+         <img src="/770 Sem Título_20250118205703.png" height="190px" width="190px">
+            <h1>Kety
+            <p>Sua Ferramenta de Administração para Discord</p></h1>
+            <p>Automatize e facilite a administração do seu servidor Discord com o Bot Kety.</p>
+            <div class="botao1"><button>Ir para o painel</button>
+           <button>Adicionar Kety</button>
+           <p>
+           <button>Pegar Key</button>
+           </p>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="feature-box">
+          
+            <i class="fas fa-user-shield"></i>
+            <h3>Administração Completa</h3>
+            <p>Controle completo do seu servidor com ferramentas poderosas para moderação e automação.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fas fa-bolt"></i>
+            <!-- Efeito de Neve -->
+<div class="snow"></div>
+
+<script>
+  // Função para gerar os flocos de neve
+  function createSnowflakes() {
+    const snowContainer = document.querySelector('.snow');
+    const numberOfSnowflakes = 50;
+
+    for (let i = 0; i < numberOfSnowflakes; i++) {
+      const snowflake = document.createElement('div');
+      snowflake.classList.add('snowflake');
+      snowflake.style.left = `${Math.random() * 100}%`; // Posição horizontal aleatória
+      snowflake.style.animationDuration = `${Math.random() * 10 + 5}s`; // Duração da animação
+      snowflake.style.animationDelay = `${Math.random() * 10}s`; // Atraso da animação
+      snowContainer.appendChild(snowflake);
+    }
+  }
+
+  // Chama a função quando a página é carregada
+  window.onload = function () {
+    createSnowflakes();
+  };
+</script>
+            <h3>Desempenho Rápido</h3>
+            <p>Respostas rápidas e eficientes, ideal para servidores grandes.</p>
+        </div>
+        
+        <div class="feature-box">
+            <i class="fas fa-cogs"></i>
+            <h3>Configurações Personalizáveis</h3>
+            <p>Configure o bot de acordo com as necessidades do seu servidor.</p>
+        </div>
+    </section>
+<!-- Informações sobre o Bot Kety -->
+    <section class="about" id="about">
+        <div class="container">
+          <h2>Sobre o Bot Kety</h2>
+<p>O Bot Kety é uma ferramenta poderosa criada para facilitar a administração de servidores Discord. Ele oferece uma série de funcionalidades de moderação e automação para garantir que seu servidor funcione de maneira eficiente e sem problemas. Com Kety, você pode automatizar tarefas, gerenciar membros, configurar permissões, e muito mais, tudo de forma simples e rápida.</p>
+
+<h3>Benefícios da Bot Kety</h3>
+<ul>
+  <li><strong>Moderação automática:</strong> Filtros de conteúdo, banimento e mutação automáticos, e muito mais para garantir que seu servidor seja sempre seguro.</li>
+  <li><strong>Automação de tarefas:</strong> Agende mensagens, comandos personalizados e ações automáticas para tornar o gerenciamento do servidor mais eficiente.</li>
+  <li><strong>Suporte para múltiplos idiomas:</strong> O Bot Kety pode ser usado em diferentes idiomas, tornando-o acessível para comunidades globais.</li>
+  <li><strong>Fácil de configurar:</strong> Interface simples para configurar todas as funções sem complicações.</li>
+</ul>
+
+<h3>Como Usar o Bot Kety</h3>
+<p>Usar o Bot Kety é simples e direto. Siga as etapas abaixo para começar:</p>
+<ol>
+  <li>Adicione o bot ao seu servidor Discord usando o link de convite disponível.</li>
+  <li>Use o comando <code>-runask</code> para fazer perguntas ao Kety.</li>
+  <li>Use o comando <code>-runkick</code> para expulsar membros.</li>
+  <li>Use o comando <code>-runask</code> para dar ban no usuário.</li>
+  <li>Use o comando <code>-run_removerole</code> para remover o cargo de um membro, impedindo que ele escreva em qualquer lugar do servidor.</li>
+</ol>
+
+<p>Com essas simples etapas, você terá o controle total do seu servidor Discord com o poder do Bot Kety!</p>
+        <button>Ir para docs commands</button>
+    </section>
+
+    <!-- Adicionando um estilo para essa nova seção -->
+    <style>
+        /* Estilo para a nova seção */
+        .about {
+            padding: 60px 0;
+            background: linear-gradient(195deg,  #0D0B14, #0016B5);
+            color: #ecf0f1;
+        }
+        
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .about p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .about h3 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .about ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .about ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .about ol {
+            padding-left: 20px;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .about ol li {
+            margin-bottom: 10px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .about {
+                padding: 40px 20px;
+            }
+            .about h2 {
+                font-size: 2rem;
+            }
+            .about h3 {
+                font-size: 1.5rem;
+            }
+            .about p, .about ul li, .about ol li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2025 - Bot Kety. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Caso queira adicionar alguma funcionalidade JavaScript, como efeitos, modais, etc.
+    </script>
+</body>
+</html>
+<script>window.onload = function() {
+const loadingElement = document.getElementById('loading');
+setTimeout(() => {
+loadingElement.style.display = 'none'; // Esconde o loader após o carregamento
+}, 20000); // A animação vai durar 2 segundos (você pode ajustar esse tempo)
+};
+
+</script>
